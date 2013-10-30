@@ -4,6 +4,9 @@
 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 <title>Katie Tilson</title>
 <style>
+a,a:visited{
+	color:black;
+}
 a:hover {
 	color:grey;
 }
@@ -12,6 +15,7 @@ a:hover {
 }
 #header h1 {
 	color: black;
+	float:left;
 	text-decoration: bold;
 	font-family: "Quicksand";	
 }
@@ -19,28 +23,33 @@ a:hover {
 	clear:both;
 }
 #sidebar {
-	float: left;
+	margin-top: 15px;
+	float: right;
 	padding-left: 15px;
+	border-left: 2px solid black;
 }
 
 #sidebar img{
-	margin-top: 15px;
+	
 	height:200;width:200; 
 	display:block;
-	border-style:solid;
-	border-width:thin;
-	border-left: 2px solid black;
+	margin-bottom: 15px;
 }
 #header li{
 	margin-right:10px;
+	text-decoration: bold;
 	float:right;
+	color:black;
 	font-family: "Quicksand";
 }
 #content {
 	font-family: "Fenix";
-	padding-right: 15px;
+	padding-right: 10px;
 	float:left;
-	width: 70%;
+	width: 75%;
+}
+#footer {
+	border-top: 2px solid black;
 }
 </style>	
 </head>
@@ -49,9 +58,8 @@ a:hover {
 <h1>Katie Tilson</h1>
 <ul>
 				<li><a href="www.linkedin.com/in/katietilson">LinkedIn</a></li>
-				<li><a href="mailto:katie.tilson@gmail.com">Say Hello</a></li>
+				<li><a href="mailto:katie.tilson@gmail.com">Contact</a></li>
 				<li><a href="http://katietilson.wordpress.com">Blog</a></li>
-				<li><a href="www.twitter.com/katietilson">Twitter</a></li>
 			</ul>
 			<div class=clear>
 		</div>
@@ -69,13 +77,16 @@ a:hover {
 
 		</div>
 		<div id="sidebar">
-			<img src="http://m.c.lnkd.licdn.com/media/p/5/005/01f/29c/02d823a.jpg">
-			<a class="twitter-timeline" href="https://twitter.com/katietilson" data-widget-id="395570172930453504">Tweets by @katietilson</a>
+<div id="img">
+		<img src="http://media-cache-ec0.pinimg.com/736x/bb/87/90/bb8790f46d5dde38b91024db8f396c79.jpg">
+	</div>
+			<a class="twitter-timeline" href="https://twitter.com/katietilson" data-widget-id="389814739066318848">Tweets by @katietilson</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
 		</div>
-		<div id="footer">
+		<div class=clear>
 		</div>
-	
 	</body>
 
 </html>
