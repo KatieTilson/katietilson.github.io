@@ -1,0 +1,60 @@
+a,a:visited{
+	color:black;
+}
+a:hover {
+	color:blue;
+}
+body{
+	width:1000px;
+	margin:auto; 
+}
+#header {
+	border-bottom: 2px solid black;
+}
+#header h1 {
+	color: black;
+	float:left;
+	text-decoration: bold;
+	font-size: 50;
+	font-family: "Quicksand";	
+}
+#header ul{
+	float:right;
+	margin-top: 50px;
+}
+.clear{
+	clear:both;
+}
+#sidebar {
+	margin-top: 15px;
+	float: right;
+	padding-left: 15px;
+	border-left: 2px solid black;
+}
+
+#sidebar img{
+	
+	height:200;width:200; 
+	display:block;
+	margin-bottom: 15px;
+}
+#header li{
+	margin-right:10px;
+	text-decoration: bold;
+	font-size: 18;
+	float:right;
+	color:black;
+	font-family: "Quicksand";
+}
+#content {
+	font-family: "Quicksand";
+	padding-right: 10px;
+	float:left;
+	width: 75%;
+}
+#content h3{
+	text-decoration: italic;
+}
+#footer {
+	border-top: 2px solid black;
+}
